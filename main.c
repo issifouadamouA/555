@@ -1,4 +1,7 @@
 #include<stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+
 #include "exercice1_serie1.h"
 #include "exercice2_serie1.h"
 #include "exercice3_serie1.h"
@@ -49,7 +52,7 @@ void main ()
     printf("ex8.s1:\n");
     exercice8();
     printf("\n");
-     S2E01();
+    S2E01();
     printf("\n");
     printf("ex2.s2:\n\n");
     S2E02();
@@ -73,7 +76,7 @@ void main ()
     S2E08();
     printf("\n");
     printf("\n");
-     EX1S03();
+    EX1S03();
     printf("\n");
     printf("ex2.s3:\n\n");
     EX2S03();
@@ -93,5 +96,4 @@ void main ()
     printf("ex7.s3:\n\n");
     EX7S03();
     printf("\n");
-}
 }

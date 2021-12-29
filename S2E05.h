@@ -6,7 +6,7 @@ int S2E05()
        printf("entrer votre choix(0 ou 1 ou 2)\n");
        scanf("%d",&choix);
        if(choix==0){
-       for (int i=0 ; i<25; i++)
+       for ( i=0 ; i<25; i++)
        {
            scanf("%d",&tab[i]);
            if(tab[i]<min)
@@ -45,4 +45,5 @@ int S2E05()
           printf("somme:%d\n",compt);
      }
     return 0;
+}
 }
